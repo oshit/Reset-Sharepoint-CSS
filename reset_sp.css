@@ -1,0 +1,43 @@
+/*
+ *
+ * Sharepoint CSS Reset ( makes those nasty classes play well with one another )
+ *
+ * Author: jarrett drouillard (@kuatsure)
+ * Version: 1.0
+ *
+ */
+
+body .ms-WPBody {
+	font-family: inherit;
+	font-size: 1em;
+}
+
+	body .ms-WPBody h1,
+	body .ms-WPBody h2,
+	body .ms-WPBody h3,
+	body .ms-WPBody h4,
+	body .ms-WPBody h5,
+	body .ms-WPBody h6 {
+		font-size: 1em;
+		font-weight: normal;
+	}
+
+	body .ms-WPBody table {
+		font-size: 1em
+	}
+
+		body .ms-WPBody table th {
+			font-weight: bold
+		}
+
+		body .ms-WPBody table td {
+			font-family: inherit;
+			font-size: 1em;
+		}
+
+	body .ms-WPBody a:link,
+	body .ms-WPBody a:visited,
+	body .ms-WPBody a:hover {
+/*		color: inherit; */
+		text-decoration: inherit;
+	}
