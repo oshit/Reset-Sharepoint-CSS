@@ -11,4 +11,4 @@ Usage: Include this file in your masterpage (before or after your main theme sty
 <link href="https://raw.github.com/kuatsure/Reset-Sharepoint-CSS/master/reset_sp.css" rel="stylesheet" type="text/css">
 ````
 
-Author's Note: If you're using this reset, chances are you have a general reset anyways. But if you don't, might I suggest Eric Meyer's [CSS Reset](http://meyerweb.com/eric/tools/css/reset/)
+Author's Note: If you're using this reset, chances are you have a general reset anyways. But if you don't, might I suggest [Eric Meyer's CSS Reset](http://meyerweb.com/eric/tools/css/reset/)
