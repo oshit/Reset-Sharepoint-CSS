@@ -1,47 +1,46 @@
-/*
+/**
+ * Sharepoint Reset
  *
- * Sharepoint CSS Reset ( makes those nasty classes play well with one another )
+ * Name:			reset_sp.less
+ * Author:			Jarrett Drouillard ( @kuatsure )
+ * Date:			12/11/12
  *
- * Author: jarrett drouillard ( @kuatsure )
- * Version: 1.0
+ * Description:		Makes those nasty classes play well with one another
  *
  */
+ 
+/**
+ * Note:	Tie a color to the body selector to trump the core.css
+ */
+ 
+.ms-WPBody {
+	font-family: inherit !important;
+	font-size: 1em !important;
 
-body {
-	.ms-WPBody {
-		font-family: inherit;
-		font-size: 1em;
+	h1 { font-size: 2em !important; }
+	h2 { font-size: 1.5em !important; }
+	h3 { font-size: 1.17em !important; }
+	h4 { font-size: 1em !important; }
+	h5 { font-size: .83em !important; }
+	h6 { font-size: .67em !important; }
 
-		h1,
-		h2,
-		h3,
-		h4,
-		h5,
-		h6 {
-			font-size: 1em;
-			font-weight: normal;
-		}
+	table {
+		font-size: 1em !important;
+	}
 	
-		table {
-			font-size: 1em
-	
-			th {
-				font-weight: bold
-			}
-	
-			td {
-				font-family: inherit;
-				font-size: 1em;
-			}
-		}
-	
-		a:link,
-		a:visited,
-		a:active,
-		a:focus,
-		a:hover {
-//			color: inherit;
-			text-decoration: inherit;
-		}
+	td {
+		font-family: inherit !important;
+		font-size: 1em !important;
+	}
+
+	a:link,
+	a:visited,
+	a:active,
+	a:focus,
+	a:hover {
+		/**
+		 * Note:	Tie a color to the a selector with '!important' to trump the core.css
+		 */	
+		text-decoration: none !important;
 	}
 }
