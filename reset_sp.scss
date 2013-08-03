@@ -1,46 +1,61 @@
 /**
  * Sharepoint Reset
  *
- * Name:			reset_sp.scss
- * Author:			Jarrett Drouillard ( @kuatsure )
- * Date:			12/11/12
+ * Name:          reset_sp.scss
+ * Author:        Jarrett Drouillard ( @kuatsure )
+ * Date:          12/11/12
  *
- * Description:		Makes those nasty classes play well with one another
+ * Description:   Makes those nasty classes play well with one another
  *
  */
- 
+
 /**
- * Note:	Tie a color to the body selector to trump the core.css
+ * Note:  Tie a color to the body selector to trump the core.css
  */
- 
+
 .ms-WPBody {
-	font-family: inherit !important;
-	font-size: 1em !important;
+  font-family: inherit !important;
+  font-size: 1em !important;
 
-	h1 { font-size: 2em !important; }
-	h2 { font-size: 1.5em !important; }
-	h3 { font-size: 1.17em !important; }
-	h4 { font-size: 1em !important; }
-	h5 { font-size: .83em !important; }
-	h6 { font-size: .67em !important; }
+  h1 { font-size: 2em !important; }
+  h2 { font-size: 1.5em !important; }
+  h3 { font-size: 1.17em !important; }
+  h4 { font-size: 1em !important; }
+  h5 { font-size: .83em !important; }
+  h6 { font-size: .67em !important; }
 
-	table {
-		font-size: 1em !important;
-	}
-	
-	td {
-		font-family: inherit !important;
-		font-size: 1em !important;
-	}
+  table {
+    font-size: 1em !important;
+  }
 
-	a:link,
-	a:visited,
-	a:active,
-	a:focus,
-	a:hover {
-		/**
-		 * Note:	Tie a color to the a selector with '!important' to trump the core.css
-		 */	
-		text-decoration: none !important;
-	}
+  td {
+    font-family: inherit !important;
+    font-size: 1em !important;
+  }
+
+  a:link,
+  a:visited,
+  a:active,
+  a:focus,
+  a:hover {
+    /**
+     * Note:  Tie a color to the a selector with '!important' to trump the core.css
+     */
+    text-decoration: none !important;
+  }
+}
+
+.ms-topNavHover,
+.ms-topnav {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1em !important;
+}
+
+.ms-bodyareaframe {
+  margin: 0;
+  border: none;
+  padding: 0;
+  background: none;
 }

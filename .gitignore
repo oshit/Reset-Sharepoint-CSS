@@ -7,12 +7,3 @@ sp-core.css
 
 # Ignore codekit's project specific JSON file
 codekit-config.json
-
-# The usual...
-.DS_Store
-.DS_Store?
-.Spotlight-V100
-.Trashes
-Thumbs.db
-*.swp
-*.swo

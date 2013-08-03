@@ -16,6 +16,7 @@ Include this file in your masterpage (before or after your main theme styles).
 ## Changelog
  * **1.0.0** Initial Release
  * **1.1.0** Cleaner and doesn’t reset some values that are ok ( also added a few helpful comments )
+ * **1.1.1** General updates ( adding some sharepoint driven classes to the mix )
 
 ### Author's Note
 If you're using this reset, chances are you have a general reset anyways. But if you don't, might I suggest [Eric Meyer's CSS Reset](http://meyerweb.com/eric/tools/css/reset/).
