@@ -1,0 +1,27 @@
+{
+  "name": "reset-sharepoint-css",
+  "version": "1.1.1",
+  "homepage": "https://github.com/kuatsure/Reset-Sharepoint-CSS",
+  "authors": [
+    "Jarrett Drouillard <jarrett@thestyl.us>"
+  ],
+  "description": "Includes styles that will reset the core.css",
+  "keywords": [
+    "sharepoint",
+    "reset",
+    "resetcss"
+  ],
+  "styles": [
+    "reset_sp.css",
+    "reset_sp.scss",
+    "reset_sp.less"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
