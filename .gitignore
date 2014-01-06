@@ -1,9 +1,0 @@
-# Ignore test files
-*.haml
-*.html
-
-# Ignore the core.css
-sp-core.css
-
-# Ignore codekit's project specific JSON file
-codekit-config.json
